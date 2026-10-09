@@ -1,0 +1,2018 @@
+[
+ {
+  "batch": "AIR-9FEEE24198FA00",
+  "kind": "air",
+  "country": "美国",
+  "platform": "B-52H战略轰炸机",
+  "time": "0523-0748",
+  "radar_regions": [
+   "鄂霍次克海"
+  ],
+  "region": "鄂霍次克海",
+  "verdict": "范围外",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "022_开源军情-美国B-52H战略轰炸机在鄂霍次克海进行远程轰炸训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "042_(网上舆情)-美军B-52H轰炸机在鄂霍次克海进行远程轰炸训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-0D82C71F1168E5",
+  "kind": "air",
+  "country": "中国",
+  "platform": "歼-16D电子战飞机",
+  "time": "0841-1006",
+  "radar_regions": [
+   "北部湾"
+  ],
+  "region": "北部湾",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "028_开源军情-中国歼-16D电子战飞机在北部湾执行情报监视侦察任务.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "005_(网上舆情)-中国歼-16D电子战机沿既定航线离开北部湾海域.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-E13BD57A156414",
+  "kind": "air",
+  "country": "澳大利亚",
+  "platform": "F-35A隐身战斗机",
+  "time": "1455-1620",
+  "radar_regions": [
+   "南黄海"
+  ],
+  "region": "南黄海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "016_开源军情-澳大利亚空军F-35A与MC-55A编队在南黄海持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "023_(网上舆情)-澳大利亚F-35A战斗机在黄海执行空中警戒.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-2B561CD7D67F96",
+  "kind": "air",
+  "country": "中国",
+  "platform": "歼-20隐身战斗机",
+  "time": "0803-1028",
+  "radar_regions": [
+   "海州湾外海"
+  ],
+  "region": "海州湾外海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "049_开源军情-中国歼-20隐身战斗机在海州湾外海组织对海突击训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "050_(网上舆情)-一架歼-20隐身战斗机在海州湾外海持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-CB26BFFF95D0CA",
+  "kind": "air",
+  "country": "中国",
+  "platform": "歼-15舰载战斗机",
+  "time": "1735-1900",
+  "radar_regions": [
+   "南海中部"
+  ],
+  "region": "南海中部",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "001_开源军情-中国海军歼-20与歼-15在南海中部组织对海突击训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-59514900467569",
+  "kind": "air",
+  "country": "中国",
+  "platform": "歼-20隐身战斗机",
+  "time": "1159-1324",
+  "radar_regions": [
+   "温州外海"
+  ],
+  "region": "温州外海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "045_开源军情-中国歼-20隐身战斗机在温州外海开展联合巡逻行动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "010_(网上舆情)-中国歼-20隐身战机在东海温州外海持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-5DA8EE8073791A",
+  "kind": "air",
+  "country": "印度",
+  "platform": "米格-29K舰载战斗机",
+  "time": "1137-1302",
+  "radar_regions": [
+   "金兰湾"
+  ],
+  "region": "金兰湾",
+  "verdict": "范围外",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "025_开源军情-印度米格-29K舰载机在金兰湾附近海域活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "017_(网上舆情)-印度舰载机在金兰湾进行起降训练引外界讨论.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-DA502CEB047CB0",
+  "kind": "air",
+  "country": "意大利",
+  "platform": "P-72A海上巡逻机",
+  "time": "0501-0726",
+  "radar_regions": [
+   "温州外海"
+  ],
+  "region": "温州外海",
+  "verdict": "冲突",
+  "reasons": [
+   "军情:数量"
+  ],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "005_开源军情-意大利P-72A海上巡逻机在温州外海实施海上侦察巡逻.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": [
+     "数量"
+    ]
+   },
+   {
+    "source": "舆论",
+    "file": "002_(网上舆情)-意大利P-72A巡逻机在东海温州外海活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-F4E51DFD1BBF95",
+  "kind": "air",
+  "country": "英国",
+  "platform": "F-35B短距起降战斗机",
+  "time": "0819-1044",
+  "radar_regions": [
+   "亚丁湾"
+  ],
+  "region": "亚丁湾",
+  "verdict": "范围外",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "012_开源军情-英国F-35B短距起降战斗机在亚丁湾开展对海突击训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "013_(网上舆情)-英军F-35B在亚丁湾持续活动引发区域机动能力讨论.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-03CBBB1FB1405D",
+  "kind": "air",
+  "country": "中国",
+  "platform": "歼-20隐身战斗机",
+  "time": "1735-1900",
+  "radar_regions": [
+   "南海中部"
+  ],
+  "region": "南海中部",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "001_开源军情-中国海军歼-20与歼-15在南海中部组织对海突击训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "040_(网上舆情)-歼-20隐身战斗机南海开展对海突击训练引关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-47112816CDFA04",
+  "kind": "air",
+  "country": "英国",
+  "platform": "P-8A“海神”反潜巡逻机",
+  "time": "0545-0710",
+  "radar_regions": [
+   "舟山外海"
+  ],
+  "region": "舟山外海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "010_开源军情-英国P-8A反潜巡逻机在舟山外海执行反潜巡逻任务.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "028_(网上舆情)-英军P-8A反潜机在东海舟山外海持续活动引关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-462A403DF8FE9B",
+  "kind": "air",
+  "country": "马来西亚",
+  "platform": "苏-30MKM多用途战斗机",
+  "time": "1446-1616",
+  "radar_regions": [
+   "南黄海"
+  ],
+  "region": "南黄海",
+  "verdict": "冲突",
+  "reasons": [
+   "舆论:主体"
+  ],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "008_开源军情-马来西亚苏-30MKM多用途战斗机在南黄海执行战备警巡行动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "022_(网上舆情)-俄空天军苏-30MKM在南黄海执行战备警巡任务.txt",
+    "agree": [
+     "平台",
+     "区域",
+     "时间",
+     "任务",
+     "数量"
+    ],
+    "conflict": [
+     "主体"
+    ]
+   }
+  ]
+ },
+ {
+  "batch": "AIR-E99AF41E64FF48",
+  "kind": "air",
+  "country": "菲律宾",
+  "platform": "FA-50PH轻型战斗机",
+  "time": "2016-2146",
+  "radar_regions": [
+   "安达曼海"
+  ],
+  "region": "安达曼海",
+  "verdict": "冲突",
+  "reasons": [
+   "舆论:区域"
+  ],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "019_开源军情-菲律宾FA-50PH轻型战斗机在安达曼海执行对海突击训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "006_(网上舆情)-菲律宾FA-50PH在孟加拉湾开展对海突击训练引关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "时间",
+     "任务"
+    ],
+    "conflict": [
+     "区域"
+    ]
+   }
+  ]
+ },
+ {
+  "batch": "AIR-C999AE0B820D8B",
+  "kind": "air",
+  "country": "菲律宾",
+  "platform": "FA-50PH轻型战斗机",
+  "time": "1751-1916",
+  "radar_regions": [
+   "印度洋"
+  ],
+  "region": "印度洋",
+  "verdict": "范围外",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "044_开源军情-菲律宾FA-50PH轻型战斗机在印度洋执行战备警巡行动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "021_(网上舆情)-菲律宾FA-50PH在印度洋执行战备警巡任务.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-4549C067D0FC8D",
+  "kind": "air",
+  "country": "新加坡",
+  "platform": "G550空中预警机",
+  "time": "0227-0452",
+  "radar_regions": [
+   "成山头外海"
+  ],
+  "region": "成山头外海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "031_开源军情-新加坡G550空中预警机在成山头外海执行情报监视侦察.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "039_(网上舆情)-新加坡G550预警机在成山头外海活动引关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-3AC9E804E7D1CB",
+  "kind": "air",
+  "country": "澳大利亚",
+  "platform": "MC-55A电子战飞机",
+  "time": "1455-1620",
+  "radar_regions": [
+   "南黄海"
+  ],
+  "region": "南黄海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "016_开源军情-澳大利亚空军F-35A与MC-55A编队在南黄海持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-B275E565BAD5E0",
+  "kind": "air",
+  "country": "美国",
+  "platform": "EA-18G“咆哮者”电子攻击机",
+  "time": "2031-2256",
+  "radar_regions": [
+   "南海"
+  ],
+  "region": "南海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "013_开源军情-美军EA-18G“咆哮者”电子攻击机在南海执行电子侦察.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "016_(网上舆情)-美军EA-18G电子攻击机在南海执行侦察任务.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-8C6B633DEF5306",
+  "kind": "air",
+  "country": "中国",
+  "platform": "歼-35舰载隐身战斗机",
+  "time": "0205-0430",
+  "radar_regions": [
+   "黑海"
+  ],
+  "region": "黑海",
+  "verdict": "范围外",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "015_开源军情-中国歼-35舰载隐身战斗机在黑海执行战备警巡行动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "015_(网上舆情)-中国歼-35舰载隐身战斗机在黑海持续活动引关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-48DC01049C8B5E",
+  "kind": "air",
+  "country": "印度",
+  "platform": "MH-60R反潜直升机",
+  "time": "1729-1954",
+  "radar_regions": [
+   "上海外海"
+  ],
+  "region": "长江口外海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "003_开源军情-印度MH-60R直升机在长江口外海持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "012_(网上舆情)-印度反潜直升机在东海持续活动引发区域监视关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-DEBA5DC9441200",
+  "kind": "air",
+  "country": "新西兰",
+  "platform": "P-8A“海神”反潜巡逻机",
+  "time": "1433-1658",
+  "radar_regions": [
+   "菲律宾海"
+  ],
+  "region": "菲律宾海",
+  "verdict": "范围外",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "032_开源军情-新西兰P-8A反潜巡逻机在菲律宾海执行联合巡逻.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "030_(网上舆情)-新西兰P-8A反潜巡逻机在菲律宾海持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-FA066C92DA7C4F",
+  "kind": "air",
+  "country": "菲律宾",
+  "platform": "AW-159“野猫”反潜直升机",
+  "time": "0249-0414",
+  "radar_regions": [
+   "连云港外海"
+  ],
+  "region": "连云港外海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "021_开源军情-菲律宾AW-159“野猫”反潜直升机在连云港外海开展海上侦察巡逻.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "019_(网上舆情)-菲律宾一架AW-159“野猫”直升机在黄海执行侦察巡逻.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-09E6AA850D790E",
+  "kind": "air",
+  "country": "中国",
+  "platform": "歼-15T舰载战斗机",
+  "time": "1417-1642",
+  "radar_regions": [
+   "宁波外海"
+  ],
+  "region": "宁波外海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "017_开源军情-中国歼-15T舰载战斗机在宁波外海实施战备警巡行动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "046_(网上舆情)-一架歼-15T舰载战斗机在宁波外海持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-EA34EFEF9C07D8",
+  "kind": "air",
+  "country": "中国",
+  "platform": "直-20舰载反潜直升机",
+  "time": "1115-1340",
+  "radar_regions": [
+   "南沙群岛海域"
+  ],
+  "region": "南沙群岛海域",
+  "verdict": "冲突",
+  "reasons": [
+   "舆论:任务"
+  ],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "006_开源军情-中国直-20舰载反潜直升机在南沙群岛海域联合巡逻.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "044_(网上舆情)-中国直-20舰载直升机在南海执行情报监视侦察任务.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间"
+    ],
+    "conflict": [
+     "任务"
+    ]
+   }
+  ]
+ },
+ {
+  "batch": "AIR-FEF816C632183C",
+  "kind": "air",
+  "country": "英国",
+  "platform": "P-8A“海神”反潜巡逻机",
+  "time": "1713-1938",
+  "radar_regions": [
+   "黄海中部"
+  ],
+  "region": "黄海中部",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "027_开源军情-英国空军P-8A反潜机在黄海中部执行巡逻任务.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "025_(网上舆情)-英国P-8A反潜巡逻机现身黄海执行巡逻任务.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-6778CB4581BF2F",
+  "kind": "air",
+  "country": "马来西亚",
+  "platform": "苏-30MKM多用途战斗机",
+  "time": "1121-1346",
+  "radar_regions": [
+   "黄海中部"
+  ],
+  "region": "黄海中部",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "042_开源军情-马来西亚苏-30MKM多用途战斗机离开黄海中部任务海域.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "数量"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "008_(网上舆情)-马来西亚战机黄海中部执行警戒任务引发关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "AIR-C1C0F00190903E",
+  "kind": "air",
+  "country": "韩国",
+  "platform": "P-8A“海神”反潜巡逻机",
+  "time": "2009-2234",
+  "radar_regions": [
+   "东沙群岛海域"
+  ],
+  "region": "东沙群岛海域",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "050_开源军情-韩国P-8A反潜巡逻机在东沙群岛海域开展联合巡逻.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "049_(网上舆情)-韩国P-8A反潜巡逻机在南海执行联合巡逻.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-6351219F599C74",
+  "kind": "ship",
+  "country": "中国",
+  "platform": "辽宁号航空母舰",
+  "time": "1139-1309",
+  "radar_regions": [
+   "中沙群岛海域"
+  ],
+  "region": "中沙群岛海域",
+  "verdict": "冲突",
+  "reasons": [
+   "舆论:时间"
+  ],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "024_开源军情-中国海军辽宁舰在中沙群岛海域执行联合巡航行动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "036_(网上舆情)-中国“辽宁号”航母编队南海联合巡航，协同行动受关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "任务",
+     "数量"
+    ],
+    "conflict": [
+     "时间"
+    ]
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-564EDF3155BDD0",
+  "kind": "ship",
+  "country": "越南",
+  "platform": "基洛级常规潜艇",
+  "time": "2058-2223",
+  "radar_regions": [
+   "塔斯曼海"
+  ],
+  "region": "塔斯曼海",
+  "verdict": "范围外",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "007_开源军情-越南海军基洛级常规潜艇在塔斯曼海执行例行部署.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "011_(网上舆情)-越南海军一艘基洛级潜艇在塔斯曼海执行例行部署.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-328D7DF6149D80",
+  "kind": "ship",
+  "country": "中国",
+  "platform": "山东号航空母舰",
+  "time": "1126-1351",
+  "radar_regions": [
+   "菲律宾海"
+  ],
+  "region": "菲律宾海",
+  "verdict": "范围外",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "034_开源军情-中国海军山东号航空母舰在菲律宾海执行例行部署.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "001_(网上舆情)-中国航母“山东号”在菲律宾海持续活动引发关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-F074EEF8CFC29A",
+  "kind": "ship",
+  "country": "中国",
+  "platform": "辽宁号航空母舰",
+  "time": "0814-1039",
+  "radar_regions": [
+   "北康暗沙海域"
+  ],
+  "region": "北康暗沙海域",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "014_开源军情-中国海军辽宁舰在北康暗沙海域执行例行部署.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "048_(网上舆情)-中国“辽宁号”航母进入北康暗沙海域执行例行部署.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-30C0D1B212BAC3",
+  "kind": "ship",
+  "country": "印度",
+  "platform": "维克兰特号航空母舰",
+  "time": "1406-1631",
+  "radar_regions": [
+   "南海北部"
+  ],
+  "region": "南海北部",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "035_开源军情-印度维克兰特号航空母舰在南海北部持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "003_(网上舆情)-印度航母“维克兰特”号进入南海活动引发媒体关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-2D799CDEE7BCD3",
+  "kind": "ship",
+  "country": "新加坡",
+  "platform": "可畏级导弹护卫舰",
+  "time": "0512-0737",
+  "radar_regions": [
+   "孟加拉湾"
+  ],
+  "region": "孟加拉湾",
+  "verdict": "范围外",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "037_开源军情-新加坡可畏级导弹护卫舰在孟加拉湾组织防空反导训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "037_(网上舆情)-新加坡海军一艘可畏级护卫舰在孟加拉湾持续活动引发关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-06923FB2C2AD47",
+  "kind": "ship",
+  "country": "中国",
+  "platform": "039A型常规潜艇",
+  "time": "2036-2201",
+  "radar_regions": [
+   "金兰湾"
+  ],
+  "region": "金兰湾",
+  "verdict": "冲突",
+  "reasons": [
+   "军情:数量"
+  ],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "048_开源军情-中国039A型常规潜艇在金兰湾执行反潜巡逻.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": [
+     "数量"
+    ]
+   },
+   {
+    "source": "舆论",
+    "file": "038_(网上舆情)-一艘039A型潜艇在金兰湾附近持续机动引发关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-F291D5D3D48E38",
+  "kind": "ship",
+  "country": "印度",
+  "platform": "卡尔瓦里级常规潜艇",
+  "time": "1740-1905",
+  "radar_regions": [
+   "南太平洋"
+  ],
+  "region": "南太平洋",
+  "verdict": "范围外",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "043_开源军情-印度海军卡尔瓦里级常规潜艇在南太平洋执行例行部署.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "004_(网上舆情)-印度海军卡尔瓦里级潜艇在南太平洋执行例行部署.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-AFE87B3F4B6179",
+  "kind": "ship",
+  "country": "澳大利亚",
+  "platform": "供应级综合补给舰",
+  "time": "1428-1653",
+  "radar_regions": [
+   "东沙群岛海域",
+   "黄海"
+  ],
+  "region": "东沙群岛海域",
+  "verdict": "可信",
+  "reasons": [
+   "批号混入2条子航迹，取东沙群岛海域"
+  ],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "030_开源军情-澳大利亚供应级综合补给舰在东沙群岛海域执行海上护航.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "020_(网上舆情)-澳大利亚补给舰在东沙群岛海域持续活动引发媒体关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-34431C793FE395",
+  "kind": "ship",
+  "country": "印度",
+  "platform": "维沙卡帕特南级导弹驱逐舰",
+  "time": "1724-1949",
+  "radar_regions": [
+   "舟山外海"
+  ],
+  "region": "舟山外海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "029_开源军情-印度维沙卡帕特南级驱逐舰在舟山外海持续机动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "034_(网上舆情)-印度海军在东海进行实弹射击训练引发媒体关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-EB154FC54B0909",
+  "kind": "ship",
+  "country": "印度",
+  "platform": "加尔各答级导弹驱逐舰",
+  "time": "1148-1313",
+  "radar_regions": [
+   "南海",
+   "苏岩礁附近海域"
+  ],
+  "region": "苏岩礁附近海域",
+  "verdict": "可信",
+  "reasons": [
+   "批号混入2条子航迹，取苏岩礁附近海域"
+  ],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "009_开源军情-印度加尔各答级驱逐舰在苏岩礁附近海域组织防空反导训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "014_(网上舆情)-印度海军“加尔各答”级驱逐舰在东海开展防空反导训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-823655A092A8CA",
+  "kind": "ship",
+  "country": "中国",
+  "platform": "039A型常规潜艇",
+  "time": "1702-1927",
+  "radar_regions": [
+   "北部湾"
+  ],
+  "region": "北部湾",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "046_开源军情-中国039A型潜艇在北部湾执行战备巡逻行动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-0B6A526D0F2FA0",
+  "kind": "ship",
+  "country": "中国",
+  "platform": "815A型电子侦察船",
+  "time": "1444-1609",
+  "radar_regions": [
+   "白令海"
+  ],
+  "region": "白令海",
+  "verdict": "范围外",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "023_开源军情-中国海军815A型电子侦察船在白令海执行监视侦察.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "018_(网上舆情)-中国815A型电子侦察船在白令海持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-D114379B98196E",
+  "kind": "ship",
+  "country": "新西兰",
+  "platform": "特卡哈号导弹护卫舰",
+  "time": "0808-1033",
+  "radar_regions": [
+   "北康暗沙海域"
+  ],
+  "region": "北康暗沙海域",
+  "verdict": "冲突",
+  "reasons": [
+   "军情:区域"
+  ],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "033_开源军情-新西兰特卡哈号导弹护卫舰在上海外海进行防空反导训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "时间",
+     "任务"
+    ],
+    "conflict": [
+     "区域"
+    ]
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-33B00ABB1CE0AB",
+  "kind": "ship",
+  "country": "日本",
+  "platform": "大鲸级常规潜艇",
+  "time": "0534-0759",
+  "radar_regions": [
+   "成山头外海"
+  ],
+  "region": "成山头外海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "041_开源军情-日本大鲸级常规潜艇在成山头外海执行远海训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "024_(网上舆情)-日本大鲸级潜艇进入黄海成山头外海引发关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-BC50DDECBEBE96",
+  "kind": "ship",
+  "country": "俄罗斯",
+  "platform": "基洛级常规潜艇",
+  "time": "0556-0721",
+  "radar_regions": [
+   "南海"
+  ],
+  "region": "南海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "026_开源军情-俄海军基洛级潜艇在南海任务海域持续机动并持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "047_(网上舆情)-俄军基洛级潜艇在南海执行例行部署引发区域关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-D733D22CC56C31",
+  "kind": "ship",
+  "country": "新西兰",
+  "platform": "特卡哈号导弹护卫舰",
+  "time": "1422-1647",
+  "radar_regions": [
+   "钓鱼岛海域"
+  ],
+  "region": "钓鱼岛海域",
+  "verdict": "冲突",
+  "reasons": [
+   "军情:主体"
+  ],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "011_开源军情-意大利特卡哈号导弹护卫舰在钓鱼岛海域执行监视侦察.txt",
+    "agree": [
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": [
+     "主体"
+    ]
+   },
+   {
+    "source": "舆论",
+    "file": "009_(网上舆情)-新西兰海军特卡哈号护卫舰在东海钓鱼岛海域活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-DDF8FCCAE297EA",
+  "kind": "ship",
+  "country": "新加坡",
+  "platform": "可畏级导弹护卫舰",
+  "time": "0837-1007",
+  "radar_regions": [
+   "巴伦支海"
+  ],
+  "region": "巴伦支海",
+  "verdict": "冲突",
+  "reasons": [
+   "舆论:任务"
+  ],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "018_开源军情-新加坡可畏级导弹护卫舰在巴伦支海进行联合搜救训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "031_(网上舆情)-新加坡可畏级护卫舰在巴伦支海完成自由航行.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间"
+    ],
+    "conflict": [
+     "任务"
+    ]
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-7A9463DC960EDF",
+  "kind": "ship",
+  "country": "中国",
+  "platform": "055型导弹驱逐舰",
+  "time": "2020-2245",
+  "radar_regions": [
+   "黄海"
+  ],
+  "region": "黄海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "002_开源军情-中国海军055型导弹驱逐舰在黄海任务海域持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "041_(网上舆情)-中国海军055型驱逐舰在黄海组织联合搜救训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-F49DFAB50C673A",
+  "kind": "ship",
+  "country": "新西兰",
+  "platform": "特卡哈号导弹护卫舰",
+  "time": "0830-1055",
+  "radar_regions": [
+   "夏威夷附近海空域"
+  ],
+  "region": "夏威夷附近海空域",
+  "verdict": "范围外",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "047_开源军情-新西兰海军特卡哈号导弹护卫舰在夏威夷附近海空域持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "029_(网上舆情)-新西兰导弹护卫舰在夏威夷附近完成联合巡航.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-48B2D0630F0984",
+  "kind": "ship",
+  "country": "中国",
+  "platform": "039A型常规潜艇",
+  "time": "0216-0441",
+  "radar_regions": [
+   "南沙群岛海域"
+  ],
+  "region": "南沙群岛海域",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "020_开源军情-中国039A型常规潜艇在南沙群岛海域执行例行部署.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "007_(网上舆情)-中国039A型常规潜艇在南海执行例行部署任务.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-47A3B67005F4C1",
+  "kind": "ship",
+  "country": "俄罗斯",
+  "platform": "基洛级常规潜艇",
+  "time": "2042-2207",
+  "radar_regions": [
+   "渚碧礁附近海域"
+  ],
+  "region": "渚碧礁附近海域",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "040_开源军情-俄罗斯海军基洛级常规潜艇在渚碧礁附近海域持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "043_(网上舆情)-俄海军基洛级潜艇在南海执行战备巡逻引发区域关注.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-CB75793FD5F322",
+  "kind": "ship",
+  "country": "澳大利亚",
+  "platform": "安扎克级导弹护卫舰",
+  "time": "1110-1335",
+  "radar_regions": [
+   "南海中部"
+  ],
+  "region": "南海中部",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "036_开源军情-澳大利亚安扎克级护卫舰在南海中部执行远海训练任务.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "035_(网上舆情)-澳海军护卫舰进入南海活动 被指开展远海训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-B8766A82FF9DDD",
+  "kind": "ship",
+  "country": "加拿大",
+  "platform": "哈里·德沃尔夫级近海巡逻舰",
+  "time": "0507-0732",
+  "radar_regions": [
+   "黄海"
+  ],
+  "region": "黄海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "039_开源军情-加拿大海军舰艇完成编队警戒部署后离开黄海.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-970F48147DE23B",
+  "kind": "ship",
+  "country": "中国",
+  "platform": "052C型导弹驱逐舰",
+  "time": "0238-0403",
+  "radar_regions": [
+   "冲绳海槽"
+  ],
+  "region": "冲绳海槽",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "038_开源军情-中国海军052C型驱逐舰在冲绳海槽持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "032_(网上舆情)-中国052C型驱逐舰东海进行联合搜救训练.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-E6F763B7F99D68",
+  "kind": "ship",
+  "country": "加拿大",
+  "platform": "哈利法克斯级导弹护卫舰",
+  "time": "0507-0732",
+  "radar_regions": [
+   "黄海"
+  ],
+  "region": "黄海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "039_开源军情-加拿大海军舰艇完成编队警戒部署后离开黄海.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "026_(网上舆情)-加拿大海军“哈利法克斯”级护卫舰在黄海执行警戒部署.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "任务",
+     "数量"
+    ],
+    "conflict": []
+   }
+  ]
+ },
+ {
+  "batch": "SHIP-9FECD5E6A9B96A",
+  "kind": "ship",
+  "country": "韩国",
+  "platform": "独岛级两栖攻击舰",
+  "time": "0852-1017",
+  "radar_regions": [
+   "长江口外海"
+  ],
+  "region": "长江口外海",
+  "verdict": "可信",
+  "reasons": [],
+  "evidence": [
+   {
+    "source": "军情",
+    "file": "004_开源军情-韩国独岛级两栖攻击舰在长江口外海持续活动.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "数量"
+    ],
+    "conflict": []
+   },
+   {
+    "source": "舆论",
+    "file": "045_(网上舆情)-韩国独岛级两栖攻击舰在东海执行编队警戒部署.txt",
+    "agree": [
+     "主体",
+     "平台",
+     "区域",
+     "时间",
+     "任务"
+    ],
+    "conflict": []
+   }
+  ]
+ }
+]
