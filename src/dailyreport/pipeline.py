@@ -29,14 +29,21 @@ def process_day(data_root: Path, day: str) -> DayResult:
     return DayResult(day, cands, build_events(cands))
 
 
-def history_until(data_root: Path, node: str, cache: dict[str, DayResult] | None = None) -> list[DayResult]:
+def history_until(data_root: Path, node: str, cache: dict[str, DayResult] | None = None,
+                  start_date: str | None = None) -> list[DayResult]:
     """返回赛段起始日至节点当日（含）的逐日结果；节点之后的数据不读取。"""
     cache = cache if cache is not None else {}
     nd = parse_day(node)
+    start = parse_day(start_date) if start_date is not None else None
+    if start is not None and start > nd:
+        raise ValueError(f"赛段起始日 {start_date} 晚于研判节点 {node}")
     out = []
     for day in list_days(data_root):
-        if parse_day(day) > nd:
+        date = parse_day(day)
+        if date > nd:
             break
+        if start is not None and date < start:
+            continue
         if day not in cache:
             cache[day] = process_day(data_root, day)
         out.append(cache[day])

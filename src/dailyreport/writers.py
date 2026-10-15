@@ -5,6 +5,7 @@ from pathlib import Path
 
 from docx import Document
 from docx.enum.section import WD_SECTION  # noqa: F401
+from docx.enum.table import WD_CELL_VERTICAL_ALIGNMENT
 from docx.enum.text import WD_BREAK
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
@@ -68,6 +69,8 @@ def _para(doc, text: str, kind: str = "body", align: str = "both", indent: bool 
     pf.space_before = pf.space_after = Pt(0)
     pf.line_spacing = Pt(line)
     pf.first_line_indent = Twips(640) if indent else Twips(0)
+    if kind in ("title", "h1", "h2"):
+        pf.keep_with_next = True
     p.alignment = {"both": 3, "center": 1, "left": 0}[align]
     if text:
         r = p.add_run(text)
@@ -109,13 +112,27 @@ def _footer_page_number(section) -> None:
 def _table(doc, header: list[str], rows: list[list[str]], width_twips: int) -> None:
     t = doc.add_table(rows=1 + len(rows), cols=len(header))
     t.style = "Table Grid"
+    t.autofit = False
+    # Give short identifiers less space and retain room for evidence descriptions.
+    widths = ([650, 1250, 1650, 2050, 1300, 1944] if len(header) == 6 else
+              [650, 1250, 1700, 650, 650, 1100, 2100, 744] if len(header) == 8 else
+              [width_twips] * len(header))
+    for column, width in zip(t.columns, widths):
+        column.width = Twips(width)
+    repeat_header = OxmlElement("w:tblHeader")
+    t.rows[0]._tr.get_or_add_trPr().append(repeat_header)
     for i, row in enumerate([header] + rows):
+        # Every record remains readable on one page; long records may still flow
+        # when they exceed a page, with the header repeated by Word.
+        t.rows[i]._tr.get_or_add_trPr().append(OxmlElement("w:cantSplit"))
         for j, val in enumerate(row):
             cell = t.cell(i, j)
-            cell.width = Twips(width_twips)
+            cell.width = Twips(widths[j])
+            cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
             p = cell.paragraphs[0]
-            p.alignment = 1
+            p.alignment = 1 if i == 0 or j == 0 else 0
             p.paragraph_format.space_before = p.paragraph_format.space_after = Pt(0)
+            p.paragraph_format.line_spacing = 1.05
             parts = str(val).split("\n")
             r = p.add_run(parts[0])
             for extra in parts[1:]:

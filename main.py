@@ -3,6 +3,7 @@
 用法：
     python main.py --data 数据 --out 日报                     # 生成全部初赛节点
     python main.py --data 数据 --out 日报 --nodes 2025.5.10   # 指定节点
+    python main.py --stage semifinal --zip                   # 生成并打包全部复赛节点
     python main.py --zip                                       # 另外打包 日报.zip
 """
 from __future__ import annotations
@@ -20,10 +21,16 @@ from dailyreport.pipeline import dump_audit, history_until  # noqa: E402
 from dailyreport.writers import write_docx, write_xlsx  # noqa: E402
 
 PRELIM_NODES = ["2025.5.10", "2025.5.18", "2025.5.30", "2025.6.9", "2025.6.17", "2025.6.29", "2025.7.9", "2025.7.17"]
+SEMIFINAL_NODES = ["2025.7.27", "2025.8.6", "2025.8.18", "2025.8.26", "2025.9.5", "2025.9.17", "2025.9.27"]
+STAGES = {
+    "prelim": ("2025.5.1", "2025.7.19", PRELIM_NODES),
+    "semifinal": ("2025.7.20", "2025.9.27", SEMIFINAL_NODES),
+}
 
 
-def run_node(data: Path, out: Path, node: str, cache: dict, audit: Path | None = None) -> Path:
-    hist = history_until(data, node, cache)
+def run_node(data: Path, out: Path, node: str, cache: dict, audit: Path | None = None,
+             start_date: str | None = None) -> Path:
+    hist = history_until(data, node, cache, start_date=start_date)
     if not hist or hist[-1].day != node:
         raise SystemExit(f"数据中缺少节点 {node}")
     today = hist[-1]
@@ -42,18 +49,31 @@ def run_node(data: Path, out: Path, node: str, cache: dict, audit: Path | None =
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="多源海空态势日报生成")
+    ap.add_argument("--stage", choices=STAGES, default="prelim", help="赛段：初赛或复赛")
     ap.add_argument("--data", default="数据", type=Path)
-    ap.add_argument("--out", default="outputs/日报", type=Path)
-    ap.add_argument("--nodes", nargs="*", default=PRELIM_NODES)
-    ap.add_argument("--audit", default="outputs/audit", type=Path, help="核验记录输出目录")
+    ap.add_argument("--out", type=Path, help="成果目录，默认按赛段选择")
+    ap.add_argument("--nodes", nargs="*", help="指定赛段范围内的研判节点，默认使用该赛段全部指定节点")
+    ap.add_argument("--audit", type=Path, help="核验记录输出目录，默认按赛段选择")
     ap.add_argument("--zip", action="store_true", help="打包为 <out>.zip")
     args = ap.parse_args()
+    start_date, end_date, default_nodes = STAGES[args.stage]
+    nodes = args.nodes if args.nodes is not None else default_nodes
+    for node in nodes:
+        try:
+            day = parse_day(node)
+        except ValueError:
+            ap.error(f"无效的研判节点日期：{node}")
+        if not parse_day(start_date) <= day <= parse_day(end_date):
+            ap.error(f"节点 {node} 不在 {args.stage} 赛段范围 {start_date}—{end_date} 内")
+    output_root = Path("outputs/复赛") if args.stage == "semifinal" else Path("outputs")
+    out = args.out if args.out is not None else output_root / "日报"
+    audit = args.audit if args.audit is not None else output_root / "audit"
     cache: dict = {}
-    for node in args.nodes:
-        d = run_node(args.data, args.out, node, cache, args.audit)
+    for node in nodes:
+        d = run_node(args.data, out, node, cache, audit, start_date=start_date)
         print("生成", d)
     if args.zip:
-        z = shutil.make_archive(str(args.out), "zip", root_dir=args.out.parent, base_dir=args.out.name)
+        z = shutil.make_archive(str(out), "zip", root_dir=out.parent, base_dir=out.name)
         print("打包", z)
 
 
